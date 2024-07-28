@@ -32,3 +32,8 @@ export default {
 
 #### 
 npm run dev
+
+###
+git add .
+git commit -m "Add detailed description of changes"
+git push origin main
