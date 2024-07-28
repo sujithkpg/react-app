@@ -35,6 +35,13 @@
 
 .card {
   padding: 2em;
+  background-color: rgb(214, 106, 106);
+}
+.btn-primary{
+  background-color: aqua;
+}
+.btn-primary:hover{
+  background-color: rgb(14, 183, 183);
 }
 
 .read-the-docs {

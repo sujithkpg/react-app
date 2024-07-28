@@ -19,16 +19,13 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button className="btn-primary" onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+          <b>This is the react demo project</b>
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
        {/* Add MyComponent here */}
        <MyComponent name='Sujith Gamage' />  {/* This will render MyComponent in your app */}
     </>
