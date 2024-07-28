@@ -29,6 +29,8 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+       {/* Add MyComponent here */}
+       <MyComponent name='Sujith Gamage' />  {/* This will render MyComponent in your app */}
     </>
   )
 }
