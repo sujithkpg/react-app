@@ -22,7 +22,7 @@ const Counter: React.FC<CounterProps> = ({ team }) => {
     <div className="counter">
       <h2>{team}</h2>
       <p>{count}</p>
-      <button onClick={() => setCount(count + 1)}>Increase</button>
+      <button className="btn-primary" onClick={() => setCount(count + 1)}>Increase</button>
       <button onClick={() => setCount(count>0?count - 1:0)}>Decrease</button>
     </div>
   );
