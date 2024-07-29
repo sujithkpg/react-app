@@ -1,6 +1,7 @@
 
 import './App.css'
 import Counter from './component/CounterProps';
+import MyComponent from './MyComponent';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Counter team="Team B" />
       </div>
     </div>
+    <MyComponent name='Sujith Gamage'>{}</MyComponent>
      </>
   )
 }

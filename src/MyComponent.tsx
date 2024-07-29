@@ -9,7 +9,7 @@ interface MyComponentProps {
 const MyComponent: React.FC<MyComponentProps> = ({ name }) => {
   return (
     <div>
-      <h1>Hello, {name}!</h1>
+      <h6 className='foter-title'>Powered By, {name}</h6>
     </div>
   );
 };
