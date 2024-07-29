@@ -32,7 +32,7 @@ export default {
 
 #### 
 npm run dev
-
+http://localhost:5173/
 ###
 git add .
 git commit -m "Add detailed description of changes"

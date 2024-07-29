@@ -1,34 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
-import MyComponent from './MyComponent';
+import Counter from './component/CounterProps';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button className="btn-primary" onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          <b>This is the react demo project</b>
-        </p>
+      <h1>Online Score Board 2024</h1>
+      <div className="app">
+      <div className="team">
+        <Counter team="Team A" />
       </div>
-       {/* Add MyComponent here */}
-       <MyComponent name='Sujith Gamage' />  {/* This will render MyComponent in your app */}
-    </>
+      <div className="team">
+        <Counter team="Team B" />
+      </div>
+    </div>
+     </>
   )
 }
 
