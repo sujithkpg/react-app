@@ -5,6 +5,17 @@
   text-align: center;
 }
 
+.app-main
+{
+  background-image: url('./assets/count-app-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.title{
+  color: white;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -38,10 +49,10 @@
   background-color: rgb(214, 106, 106);
 }
 .btn-primary{
-  background-color: rgb(132 142 196);
+  background-color: rgb(180, 186, 220);
 }
 .btn-primary:hover{
-  background-color: rgb(180, 186, 220);
+  background-color: rgb(132 142 196);
 }
 
 .read-the-docs {

@@ -17,10 +17,8 @@ function App() {
 };
   return (
     
-    <>
-      <div>
-      </div>
-      <h1>Online Score Board 2024</h1>
+    <div className='app-main'>
+      <h1 className='title'>Online Score Board 2024</h1>
       <div className="app">
       <div className="team">
         <Counter team={teamName1} />
@@ -33,7 +31,7 @@ function App() {
       <ButtonApp name='RESET' action={resetAction}></ButtonApp>
     </div>
     <MyComponent name='Sujith Gamage'>{}</MyComponent>
-     </>
+     </div>
   )
 }
 
