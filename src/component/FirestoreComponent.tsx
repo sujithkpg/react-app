@@ -21,7 +21,7 @@ const FirestoreComponent: React.FC = () => {
 
   return (
     <div>
-      <h1>Firestore Data</h1>
+      {/* <h1>Firestore Data</h1> */}
       <ul>
         {data.map((item, index) => (
           <li key={index}>{JSON.stringify(item)}</li>

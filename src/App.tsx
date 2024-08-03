@@ -23,7 +23,7 @@ function App() {
     <div className='app-main'>
       <div className="App">
       <header className="App-header">
-        <h1>My Firebase App</h1>
+        <h5>Administrative Login</h5>
       </header>
       <main className="App-main">
         <AuthComponent />
