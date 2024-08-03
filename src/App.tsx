@@ -4,7 +4,7 @@ import ButtonApp from './component/Button';
 import Counter from './component/CounterProps';
 import MyComponent from './MyComponent';
 import AuthComponent from './component/AuthComponent'; 
-import FirestoreComponent from './component/FirestoreComponent'; 
+import FirestoreComponent from './component/FirestoreComponent';
 
 function App() {
 
