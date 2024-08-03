@@ -69,7 +69,7 @@
   flex-direction: row;
   align-items: center;
   height: 50vh;
-  background-color: #642121;
+  background-color: #18585c;
 }
 
 .team {
@@ -84,8 +84,7 @@
 }
 
 .reset-btn{
-  padding: 1px;
-  background-color:#3c1717;
+  padding-top: 13px;
 }
 
 .counter {
@@ -106,12 +105,13 @@
 }
 
 .foter-title{
+  color: #b8b8b8;
   text-align: right;
   text-shadow: #4e1b1b;
   font-family: 'Lucida Sans';
 }
 .foter-title:hover{
- color: blue;
+ color: rgb(156, 156, 171);
 }
 .foter-title::after{
   color: rgb(216, 33, 70);
