@@ -28,7 +28,9 @@ function App() {
       <div className="team">
         <Counter team={teamName2} />
       </div>
+      <div className='reset-btn'>
       <ButtonApp name='RESET' action={resetAction}></ButtonApp>
+      </div>
     </div>
     <MyComponent name='Sujith Gamage'>{}</MyComponent>
      </>

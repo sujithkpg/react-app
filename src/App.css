@@ -69,6 +69,10 @@
   padding: 1px;
 }
 
+.reset-btn{
+  padding: 1px;
+}
+
 .counter {
   display: flex;
   flex-direction: column;
