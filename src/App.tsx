@@ -14,11 +14,12 @@ function App() {
     console.log('++++ KEY NME',key1);
     localStorage.setItem(key1, '0');
     localStorage.setItem(key2, '0');
+    window.location.reload()
 };
   return (
     
     <div className='app-main'>
-      <h1 className='title'>Online Score Board 2024</h1>
+      <h1 className='title'>Online Score Board</h1>
       <div className="app">
       <div className="team">
         <Counter team={teamName1} />
