@@ -51,8 +51,9 @@
 .app {
   display: flex;
   justify-content: space-around;
+  flex-wrap:wrap;
   align-items: center;
-  height: 100vh;
+  height: 65vh;
   background-color: #642121;
 }
 
