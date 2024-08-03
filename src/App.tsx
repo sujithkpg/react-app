@@ -3,6 +3,8 @@ import './App.css'
 import ButtonApp from './component/Button';
 import Counter from './component/CounterProps';
 import MyComponent from './MyComponent';
+import AuthComponent from './component/AuthComponent'; 
+import FirestoreComponent from './component/FirestoreComponent'; 
 
 function App() {
 
@@ -19,6 +21,15 @@ function App() {
   return (
     
     <div className='app-main'>
+      <div className="App">
+      <header className="App-header">
+        <h1>My Firebase App</h1>
+      </header>
+      <main className="App-main">
+        <AuthComponent />
+        <FirestoreComponent />
+      </main>
+    </div>
       <h1 className='title'>Online Score Board</h1>
       <div className="app">
       <div className="team">
