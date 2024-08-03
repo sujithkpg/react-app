@@ -38,10 +38,10 @@
   background-color: rgb(214, 106, 106);
 }
 .btn-primary{
-  background-color: rgb(54, 75, 193);
+  background-color: rgb(132 142 196);
 }
 .btn-primary:hover{
-  background-color: rgb(26, 49, 177);
+  background-color: rgb(180, 186, 220);
 }
 
 .read-the-docs {
@@ -71,6 +71,7 @@
 
 .reset-btn{
   padding: 1px;
+  background-color:#3c1717;
 }
 
 .counter {
