@@ -34,13 +34,14 @@ const AuthComponent: React.FC = () => {
         </div>
       ) : (
         <div>
-          <input
+          <input className='input-email'
             type="email"
             placeholder="Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
           <input
+            className='input-password'
             type="password"
             placeholder="Password"
             value={password}

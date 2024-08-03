@@ -117,3 +117,17 @@
 .foter-title::after{
   color: rgb(216, 33, 70);
  }
+ .input-email{
+  width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+ }
+
+ .input-password{
+  width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  height: 50%;
+ }
