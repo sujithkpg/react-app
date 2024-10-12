@@ -131,3 +131,20 @@
   margin-right: 10px;
   height: 50%;
  }
+
+ .header-box{
+  /* display: flex; */
+ }
+
+ .header-box-ul{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-direction: row; /* Or column depending on your layout */
+  gap: 20px;
+  background-color: #cacce5;
+  border-radius: 3px;
+ }
+
+ .header-box-li:hover{
+  background-color: white;
+ }

@@ -28,11 +28,11 @@ function App() {
       <div className='app-main'>
         <header className="App-header">
           <h5>Administrative Login</h5>
-          <nav>
-            <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/about">About</Link></li>
-              <li><Link to="/contact">Contact</Link></li>
+          <nav className='header-box'>
+            <ul className='header-box-ul'>
+              <li className='header-box-li'><Link to="/">Home</Link></li>
+              <li  className='header-box-li'><Link to="/about">About</Link></li>
+              <li  className='header-box-li'><Link to="/contact">Contact</Link></li>
             </ul>
           </nav>
         </header>
